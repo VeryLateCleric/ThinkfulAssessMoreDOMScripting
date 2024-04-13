@@ -24,12 +24,14 @@ console.log(halfStars);
 /**
  Write a statement that will find the Gateway Arch park element by its ID.
 */
-const gatewayArch = "REPLACE THIS WITH YOUR CODE";
+const gatewayArch = document.getElementById('ganp');
+console.log(gatewayArch);
 
 /**
 Write a statement that will find the element containing the established date for the Gateway Arch park.
 */
-const established = "REPLACE THIS WITH YOUR CODE";
+const established = document.querySelector('#ganp .established .value');
+console.log(established);
 
 /////////////////////////////////
 // DO NOT EDIT BELOW THIS LINE //
