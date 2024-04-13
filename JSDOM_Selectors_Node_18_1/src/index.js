@@ -10,7 +10,8 @@ import "./index.css";
  In this first example, the `document.querySelector()` syntax is included for you.
 */
 
-const ratings = document.querySelectorAll("YOUR SELECTOR HERE");
+const ratings = document.querySelectorAll('.rating .value');
+console.log(ratings);
 
 /**
 Write a statement that will find all elements on the page containing stars that are not shaded.
@@ -18,8 +19,8 @@ Write a statement that will find all elements on the page containing stars that 
 Replace the entire string with your own code.
 
 */
-const halfStars = "REPLACE THIS WITH YOUR CODE";
-
+const halfStars = document.querySelectorAll('.stars .star:not(.full');
+console.log(halfStars);
 /**
  Write a statement that will find the Gateway Arch park element by its ID.
 */
